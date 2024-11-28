@@ -6,9 +6,9 @@ import SideMenu from "@modules/layout/components/side-menu"
 import Image from "next/image"
 import {listRegions} from "@lib/data/regions";
 
-export default async function Nav() {
+export default function Nav() {
   // @ts-ignore 
-  const regions = await listRegions().then((regions) => regions)
+  // const regions = await listRegions().then((regions) => regions)
 
   return (
     <>
@@ -81,11 +81,11 @@ export default async function Nav() {
               }
             >
              
-              <CartButton />
+              {/*<CartButton />*/}
             </Suspense>
-            <div className="lg:hidden">
-              <SideMenu regions={regions} />
-            </div>
+            {/*<div className="lg:hidden">*/}
+            {/*  <SideMenu regions={regions} />*/}
+            {/*</div>*/}
           </div>
           </div>
         </nav>

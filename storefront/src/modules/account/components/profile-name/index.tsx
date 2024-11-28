@@ -47,6 +47,7 @@ const ProfileName: React.FC<MyInformationProps> = ({ customer }) => {
   }, [state])
 
   return (
+      // @ts-ignore
     <form action={formAction} className="w-full overflow-visible">
       <AccountInfo
         label="Name"

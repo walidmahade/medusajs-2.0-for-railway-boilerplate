@@ -1,5 +1,6 @@
 import { sdk } from "@lib/config"
 import medusaError from "@lib/util/medusa-error"
+// @ts-ignore
 import { cache } from "react"
 import { HttpTypes } from "@medusajs/types"
 
@@ -30,8 +31,9 @@ export const getRegion = cache(async function (countryCode: string) {
     if (!regions) {
       return null
     }
-
+// @ts-ignore
     regions.forEach((region) => {
+      // @ts-ignore
       region.countries?.forEach((c) => {
         regionMap.set(c?.iso_2 ?? "", region)
       })

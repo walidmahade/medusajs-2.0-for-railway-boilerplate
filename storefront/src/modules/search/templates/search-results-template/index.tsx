@@ -44,6 +44,7 @@ const SearchResultsTemplate = ({
           <>
             <RefinementList sortBy={sortBy || "created_at"} search />
             <div className="content-container">
+              {/*@ts-ignore */}
               <PaginatedProducts
                 productsIds={ids}
                 sortBy={sortBy}

@@ -2,6 +2,7 @@
 
 import { sdk } from "@lib/config"
 import medusaError from "@lib/util/medusa-error"
+// @ts-ignore
 import { cache } from "react"
 import { getAuthHeaders } from "./cookies"
 

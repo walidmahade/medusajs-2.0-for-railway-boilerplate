@@ -10,27 +10,27 @@ import ReactSlider from "react-slider"
 const categories = [
   {
     name: "Conditioner bar",
-    link: "https://ovia.no/product-category/balsam-bar/",
+    link: "#",
     count: 4,
   },
   {
     name: "Hand soap",
-    link: "https://ovia.no/product-category/hand-sape/",
+    link: "#",
     count: 1,
   },
   {
     name: "Body soap",
-    link: "https://ovia.no/product-category/body-soap/",
+    link: "#",
     count: 4,
   },
   {
     name: "Soap holder",
-    link: "https://ovia.no/product-category/sapeholder/",
+    link: "#",
     count: 0,
   },
   {
     name: "Shampoo bar",
-    link: "https://ovia.no/product-category/shampoo-bar/",
+    link: "#",
     count: 4,
   },
 ]
@@ -39,31 +39,31 @@ const seller = [
     name: "Shea butter Shampoo bar",
     price: "NOK 270.00.NOK 220.00",
     img: "https://ovia.no/wp-content/uploads/2023/04/Sheasmor-sjampobar-grey-1000x667.jpg",
-    link: "https://ovia.no/nettbutikk/shea-butter-shampoobar/",
+    link: "#",
   },
   {
     name: "Shea butter Shampoo bar",
     price: "NOK 270.00",
     img: "https://ovia.no/wp-content/uploads/2023/04/Sheasmor-sjampobar-grey-1000x667.jpg",
-    link: "https://ovia.no/nettbutikk/shea-butter-shampoobar/",
+    link: "#",
   },
   {
     name: "Shea butter Shampoo bar",
     price: "NOK 270.00",
     img: "https://ovia.no/wp-content/uploads/2023/04/Sheasmor-sjampobar-grey-1000x667.jpg",
-    link: "https://ovia.no/nettbutikk/shea-butter-shampoobar/",
+    link: "#",
   },
   {
     name: "Shea butter Shampoo bar",
     price: "NOK 270.00.NOK 220.00",
     img: "https://ovia.no/wp-content/uploads/2023/04/Sheasmor-sjampobar-grey-1000x667.jpg",
-    link: "https://ovia.no/nettbutikk/shea-butter-shampoobar/",
+    link: "#",
   },
   {
     name: "Shea butter Shampoo bar",
     price: "NOK 270.00",
     img: "https://ovia.no/wp-content/uploads/2023/04/Sheasmor-sjampobar-grey-1000x667.jpg",
-    link: "https://ovia.no/nettbutikk/shea-butter-shampoobar/",
+    link: "#",
   },
 ]
 

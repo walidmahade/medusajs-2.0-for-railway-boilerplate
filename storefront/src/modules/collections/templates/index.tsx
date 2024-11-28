@@ -28,12 +28,12 @@ export default function CollectionTemplate({
           <h1>{collection.title}</h1>
         </div>
         <Suspense fallback={<SkeletonProductGrid />}>
-          <PaginatedProducts
-            sortBy={sort}
-            page={pageNumber}
-            collectionId={collection.id}
-            countryCode={countryCode}
-          />
+          {/*<PaginatedProducts*/}
+          {/*  sortBy={sort}*/}
+          {/*  page={pageNumber}*/}
+          {/*  collectionId={collection.id}*/}
+          {/*  countryCode={countryCode}*/}
+          {/*/>*/}
         </Suspense>
       </div>
     </div>

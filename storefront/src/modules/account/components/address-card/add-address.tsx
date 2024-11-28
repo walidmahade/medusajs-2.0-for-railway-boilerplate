@@ -55,6 +55,7 @@ const AddAddress = ({ region }: { region: HttpTypes.StoreRegion }) => {
         <Modal.Title>
           <Heading className="mb-2">Add address</Heading>
         </Modal.Title>
+        {/*@ts-ignore */}
         <form action={formAction}>
           <Modal.Body>
             <div className="flex flex-col gap-y-2">

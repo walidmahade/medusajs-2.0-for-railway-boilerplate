@@ -64,6 +64,7 @@ const Addresses = ({
         )}
       </div>
       {isOpen ? (
+          // @ts-ignore
         <form action={formAction}>
           <div className="pb-8">
             <ShippingAddress

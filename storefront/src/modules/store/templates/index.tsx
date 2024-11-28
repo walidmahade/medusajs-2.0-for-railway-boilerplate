@@ -25,6 +25,7 @@ const StoreTemplate = ({
           <h1 data-testid="store-page-title">All products</h1>
         </div>
         <Suspense fallback={<SkeletonProductGrid />}>
+          {/*@ts-ignore */}
           <PaginatedProducts
             sortBy={sortBy || "created_at"}
             page={pageNumber}

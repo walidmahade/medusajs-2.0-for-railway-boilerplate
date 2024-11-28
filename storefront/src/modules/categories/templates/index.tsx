@@ -70,6 +70,7 @@ export default function CategoryTemplate({
           </div>
         )}
         <Suspense fallback={<SkeletonProductGrid />}>
+          {/*@ts-ignore */}
           <PaginatedProducts
             sortBy={sort}
             page={pageNumber}

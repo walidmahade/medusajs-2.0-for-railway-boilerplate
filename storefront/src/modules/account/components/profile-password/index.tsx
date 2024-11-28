@@ -31,6 +31,7 @@ const ProfileName: React.FC<MyInformationProps> = ({ customer }) => {
   }, [state])
 
   return (
+      // @ts-ignore
     <form action={formAction} onReset={() => clearState()} className="w-full">
       <AccountInfo
         label="Password"

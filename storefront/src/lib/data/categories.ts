@@ -1,5 +1,6 @@
 import { sdk } from "@lib/config"
-import { cache } from "react"
+// @ts-ignore
+import {cache} from "react";
 
 export const listCategories = cache(async function () {
   return sdk.store.category

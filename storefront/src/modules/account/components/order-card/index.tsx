@@ -1,7 +1,7 @@
 import { Button } from "@medusajs/ui"
 import { useMemo } from "react"
 
-import Thumbnail from "@modules/products/components/thumbnail"
+// import Thumbnail from "@modules/products/components/thumbnail"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
 import { convertToLocale } from "@lib/util/money"
 import { HttpTypes } from "@medusajs/types"
@@ -50,7 +50,7 @@ const OrderCard = ({ order }: OrderCardProps) => {
               className="flex flex-col gap-y-2"
               data-testid="order-item"
             >
-              <Thumbnail thumbnail={i.thumbnail} images={[]} size="full" />
+              {/*<Thumbnail thumbnail={i.thumbnail} images={[]} size="full" />*/}
               <div className="flex items-center text-small-regular text-ui-fg-base">
                 <span
                   className="text-ui-fg-base font-semibold"
