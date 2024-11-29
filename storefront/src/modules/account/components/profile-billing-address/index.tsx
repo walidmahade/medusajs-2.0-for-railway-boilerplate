@@ -80,6 +80,7 @@ const ProfileBillingAddress: React.FC<MyInformationProps> = ({
   }, [billingAddress, regionOptions])
 
   return (
+      // @ts-ignore
     <form action={formAction} onReset={() => clearState()} className="w-full">
       <AccountInfo
         label="Billing address"

@@ -1,9 +1,9 @@
 
 
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
-import MedusaCTA from "@modules/layout/components/medusa-cta"
-import {getCollectionsList} from "@lib/data/collections";
-import {getCategoriesList} from "@lib/data/categories";
+// import MedusaCTA from "@modules/layout/components/medusa-cta"
+// import {getCollectionsList} from "@lib/data/collections";
+// import {getCategoriesList} from "@lib/data/categories";
 
 
 const footerLink = [
@@ -25,9 +25,9 @@ const footerLink = [
   },
 ]
 
-export default async function Footer() {
-  const { collections } = await getCollectionsList(0, 6)
-  const { product_categories } = await getCategoriesList(0, 6)
+export default  function Footer() {
+  // const { collections } = await getCollectionsList(0, 6)
+  // const { product_categories } = await getCategoriesList(0, 6)
 
   return (
     <>

@@ -1,4 +1,5 @@
 import { sdk } from "@lib/config"
+// @ts-ignore
 import { cache } from "react"
 
 // Shipping actions

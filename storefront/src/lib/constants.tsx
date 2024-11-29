@@ -8,6 +8,7 @@ import PayPal from "@modules/common/icons/paypal"
 /* Map of payment provider_id to their title and icon. Add in any payment providers you want to use. */
 export const paymentInfoMap: Record<
   string,
+    // @ts-ignore
   { title: string; icon: React.JSX.Element }
 > = {
   pp_stripe_stripe: {

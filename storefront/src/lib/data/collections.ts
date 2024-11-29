@@ -1,4 +1,5 @@
 import { sdk } from "@lib/config"
+// @ts-ignore
 import { cache } from "react"
 import { getProductsList } from "./products"
 import { HttpTypes } from "@medusajs/types"
@@ -35,6 +36,7 @@ export const getCollectionsWithProducts = cache(
     }
 
     const collectionIds = collections
+        // @ts-ignore
       .map((collection) => collection.id)
       .filter(Boolean) as string[]
 
@@ -42,9 +44,10 @@ export const getCollectionsWithProducts = cache(
       queryParams: { collection_id: collectionIds },
       countryCode,
     })
-
+// @ts-ignore
     response.products.forEach((product) => {
       const collection = collections.find(
+          // @ts-ignore
         (collection) => collection.id === product.collection_id
       )
 

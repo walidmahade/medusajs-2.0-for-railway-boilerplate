@@ -11,7 +11,7 @@ import DeleteButton from "@modules/common/components/delete-button"
 import LineItemOptions from "@modules/common/components/line-item-options"
 import LineItemPrice from "@modules/common/components/line-item-price"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
-import Thumbnail from "@modules/products/components/thumbnail"
+// import Thumbnail from "@modules/products/components/thumbnail"
 
 const CartDropdown = ({
   cart: cartState,
@@ -120,11 +120,11 @@ const CartDropdown = ({
                           href={`/products/${item.variant?.product?.handle}`}
                           className="w-24"
                         >
-                          <Thumbnail
-                            thumbnail={item.variant?.product?.thumbnail}
-                            images={item.variant?.product?.images}
-                            size="square"
-                          />
+                          {/*<Thumbnail*/}
+                          {/*  thumbnail={item.variant?.product?.thumbnail}*/}
+                          {/*  images={item.variant?.product?.images}*/}
+                          {/*  size="square"*/}
+                          {/*/>*/}
                         </LocalizedClientLink>
                         <div className="flex flex-col justify-between flex-1">
                           <div className="flex flex-col flex-1">

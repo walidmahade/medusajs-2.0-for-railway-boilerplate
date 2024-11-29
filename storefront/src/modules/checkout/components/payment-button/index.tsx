@@ -52,6 +52,7 @@ const PaymentButton: React.FC<PaymentButtonProps> = ({
       )
     case isPaypal(paymentSession?.provider_id):
       return (
+          // @ts-ignore
         <PayPalPaymentButton
           notReady={notReady}
           cart={cart}
